@@ -1,0 +1,85 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 416 160)
+	(text "comparator5" (rect 5 0 72 12)(font "Arial" ))
+	(text "inst" (rect 8 80 26 92)(font "Arial" ))
+	(port
+		(pt 112 96)
+		(input)
+		(text "x[4..0]" (rect 88 50 101 90)(font "Arial" (font_size 8))(vertical))
+		(text "x[4..0]" (rect 128 56 141 96)(font "Arial" (font_size 8))(vertical))
+		(line (pt 112 96)(pt 112 88))
+	)
+	(port
+		(pt 248 96)
+		(input)
+		(text "y4[..0]" (rect 240 42 253 82)(font "Arial" (font_size 8))(vertical))
+		(text "y4[..0]" (rect 256 56 269 96)(font "Arial" (font_size 8))(vertical))
+		(line (pt 248 96)(pt 248 80))
+	)
+	(port
+		(pt 176 0)
+		(output)
+		(text "f2" (rect 168 24 181 36)(font "Arial" (font_size 8))(vertical))
+		(text "f2" (rect 160 8 173 20)(font "Arial" (font_size 8))(vertical))
+		(line (pt 176 0)(pt 176 16))
+	)
+	(port
+		(pt 272 0)
+		(output)
+		(text "f1" (rect 264 24 277 36)(font "Arial" (font_size 8))(vertical))
+		(text "f1" (rect 256 8 269 20)(font "Arial" (font_size 8))(vertical))
+		(line (pt 272 0)(pt 272 16))
+	)
+	(port
+		(pt 80 0)
+		(output)
+		(text "f3" (rect 72 16 85 28)(font "Arial" (font_size 8))(vertical))
+		(text "f3" (rect 64 8 77 20)(font "Arial" (font_size 8))(vertical))
+		(line (pt 80 0)(pt 80 8))
+	)
+	(drawing
+		(line (pt 32 32)(pt 32 72))
+		(line (pt 32 32)(pt 64 32))
+		(line (pt 32 72)(pt 64 72))
+		(line (pt 152 32)(pt 152 72))
+		(line (pt 152 32)(pt 176 40))
+		(line (pt 176 40)(pt 200 32))
+		(line (pt 200 32)(pt 200 72))
+		(line (pt 216 24)(pt 216 72))
+		(line (pt 216 24)(pt 264 24))
+		(line (pt 264 24)(pt 264 48))
+		(line (pt 216 48)(pt 264 48))
+		(line (pt 280 24)(pt 280 48))
+		(line (pt 280 48)(pt 320 48))
+		(line (pt 320 48)(pt 320 72))
+		(line (pt 280 72)(pt 320 72))
+		(line (pt 280 24)(pt 320 24))
+		(rectangle (rect 16 16 80 80))
+		(rectangle (rect 80 16 144 80))
+		(rectangle (rect 144 16 208 80))
+		(rectangle (rect 208 16 272 80))
+		(rectangle (rect 272 16 336 80))
+		(circle (rect 88 24 136 72))
+	)
+)
